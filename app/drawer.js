@@ -835,7 +835,7 @@
 
     var text = new PointText(mapBounds.bottomRight - new Point(2, 2));
     text.justification = 'right';
-    text.content = "made at eugeneration.github.io/HappyIslandDesigner";
+    text.content = "Made using Happy Island Designer";
     text.fontFamily = 'TTNorms, sans-serif';
     text.fillColor = colors.oceanDark.color;
     text.strokeWidth = 0;

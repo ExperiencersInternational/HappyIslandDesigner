@@ -1276,33 +1276,12 @@
       
       var downloaddroidButton = createMenuButton('Download for Android', 'img/menu_androiddownload.png', 3,
         function() {window.open('https://github.com/FlynnFarrow/HappyIslandDesigner/releases/download/androidapp-v1.0-beta/HappyIslandDesigner_Android_1.0_BETA.zip', '_blank')});
-      
-      var fullScreen = createMenuButton('Full Screen', 'img/menu_androiddownload.png', 3, document.documentElement,
-function() {
-  if (fullScreen.requestFullscreen){
-  fullScreen.requestFullscreen(); 
-  } else if (document.exitFullscreen) {
-    document.exitFullscreen();
-  }
-
-}
-function closeFullscreen() {
-  if (document.exitFullscreen) {
-    document.exitFullscreen();
-  } else if (document.mozCancelFullScreen) {
-    document.mozCancelFullScreen();
-  } else if (document.webkitExitFullscreen) {
-    document.webkitExitFullscreen();
-  } else if (document.msExitFullscreen) {
-    document.msExitFullscreen();
-  }
-}
 
       var twitterButton = createMenuButton('Twitter', 'img/menu-twitt.png', 0,
         function() {window.open('https://twitter.com/island_designer', '_blank')});
       twitterButton.position = new Point(0, 210);
 
-      mainMenu.data.contents.addChildren([saveButton, loadButton, newButton, downloaddroidButton, fullScreen, twitterButton]);
+      mainMenu.data.contents.addChildren([saveButton, loadButton, newButton, downloaddroidButton, twitterButton]);
       mainMenu.opacity = 0;
     }
     mainMenu.tweenTo({opacity: isShown ? 1 : 0}, 200);

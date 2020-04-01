@@ -33,11 +33,13 @@ Click here for [local development info](/README-localdev).
 
 ## Known Issues
 
-**Note that if you edit/compress the saved image, the encoded data will get corrupted.** If you're sharing a map, make sure to use an image host that doesn't compress the image.
+- **Note that if you edit/compress the saved image, the encoded data will get corrupted.** If you're sharing a map, make sure to use an image host that doesn't compress the image.
 
-The UI isn't really optimal for mobile, but at least it works.
+- The UI isn't really optimal for mobile, but at least it works.
 
-The UI will be cut off if you hold your phone in landscape mode.
+- The UI will be cut off if you hold your phone in landscape mode.
+
+- Images will not load even if it's not edited/compressed
 
 ## FAQ
 

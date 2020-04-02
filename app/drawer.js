@@ -1277,6 +1277,10 @@
       var downloaddroidButton = createMenuButton('Download for Android', 'img/menu_androiddownload.png', 0, // revert to 3 if doesn't work
         function() {window.open('https://github.com/FlynnFarrow/HappyIslandDesigner/releases/download/androidapp-v1.0-beta/HappyIslandDesigner_Android_1.0_BETA.zip', '_blank')});
       downloaddroidButton.position = new Point(0, 72); // delete this if doesn't work
+       
+      var islandnamegenButton = createMenuButton('Island Name Generator', 'img/menu_androiddownload.png', 1, // revert to 3 if doesn't work
+        function() {window.open('https://flynnfarrow.github.io/ACNHIslandNameGenerator/', '_blank')});
+      downloaddroidButton.position = new Point(0, 72); // delete this if doesn't work
 
       var twitterButton = createMenuButton('Twitter', 'img/menu-twitt.png', 0,
         function() {window.open('https://twitter.com/island_designer', '_blank')});

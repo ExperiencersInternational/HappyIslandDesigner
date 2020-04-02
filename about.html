@@ -58,13 +58,22 @@ catch(e){window.attachEvent("onload", $buo_f)}
             src: url("font/TTNorms-Bold.woff") format('woff');
         }
         
-        .text {
+        @font-face {
+            font-family: "SwitchUI";
+            src: url("font/Nintendo_Switch_UI_Font.ttf") format('ttf');
+        }
+        
+        .title {
             font-family: "TTNorms";
+        }
+        
+        .paragraph {
+            font-family: "SwitchUI";
         }
     </style>
 </head>
 <body>
-    <h1 class="text">About the Happy Island Designer Tool</h1>
+    <h1 class="title">About the Happy Island Designer Tool</h1>
     
 </body>
 </html>

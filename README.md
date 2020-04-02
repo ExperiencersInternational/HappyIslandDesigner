@@ -1,8 +1,12 @@
-# Happy Island Designer (Alpha)
+# Happy Island Designer and Island Name Generator (Alpha)
 
 Click here to create your own island map!
 
 https://flynnfarrow.github.io/HappyIslandDesigner/
+
+Click here to generate your island's name!
+
+https://flynnfarrow.github.io/ACNHIslandNameGenerator
 
 ## Introduction
 
@@ -23,6 +27,7 @@ Click here for [local development info](/README-localdev).
 * Brush size selector
 * Line toggle buttons
 * Mobile - pinch to zoom and two finger swipe to scroll
+* Generate a free island name
 
 ### Hotkeys
 

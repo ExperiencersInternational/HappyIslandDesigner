@@ -24,6 +24,9 @@
     <title>About | Happy Island Designer</title>
     <link rel="preload" href="font/TTNorms-Bold.woff" as="font" type="font/woff" crossorigin>
     <link rel="prefetch" href="font/TTNorms-Bold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="font/Nintendo_Switch_UI_Font.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="prefetch" href="font/Nintendo_Switch_UI_Font.ttf" as="font" type="font/ttf" crossorigin>
+
 
     <script type="text/javascript" src="lib/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="lib/jquery.mousewheel.min.js"></script>
@@ -41,17 +44,8 @@ function $buo_f(){
 try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
 catch(e){window.attachEvent("onload", $buo_f)}
 </script>
-
-    <script type="text/javascript" src="lib/paper-full.js"></script>
-    <script type="text/javascript" src="lib/paper-animate-browser.min.js"></script>
-    <script type="text/javascript" src="lib/steganography.min.js"></script>
-    <script type="text/javascript" src="lib/mitt.js"></script>
-    <script type="text/javascript" src="lib/lz-string.js"></script>
-    <script type="text/javascript" src="data/template.js"></script>
-    <script type="text/javascript" src="app/store.js"></script>
-    <script type="text/paperscript" canvas="canvas" src="app/drawer.js"></script>
-    <script type="text/paperscript" canvas="canvas" src="app/paper-zoom.js"></script>
-    <style>
+    
+<style>
         
         @font-face {
             font-family: "TTNorms";
@@ -60,7 +54,7 @@ catch(e){window.attachEvent("onload", $buo_f)}
         
         @font-face {
             font-family: "SwitchUI";
-            src: url("font/Nintendo_Switch_UI_Font.ttf") format('ttf');
+            src: url("font/Nintendo_Switch_UI_Font.ttf");
         }
         
         .title {

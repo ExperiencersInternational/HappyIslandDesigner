@@ -1192,7 +1192,7 @@
   function showMainMenu(isShown) {
     if (mainMenu == null) {
       if (!isShown) return;
-      mainMenu = renderModal('Main Menu', 260, 370, function() {showMainMenu(false)});
+      mainMenu = renderModal('HID Menu', 260, 370, function() {showMainMenu(false)});
 
       var hitSizeHalf = new Point(35, 35);
       var hitSize = new Size(70, 70);
@@ -1268,14 +1268,15 @@
         function() {loadMapFromFile()});
       var newButton = createMenuButton('New Map', 'img/menu-new.png', 2,
         function() {
-          var r = confirm("Clear your map? You will lose all unsaved changes. Make sure you save changes by hitting Ctrl+S before you clear your map.");
+          var r = confirm("Clear your map? You will lose all unsaved changes.");
           if (r == true) {
             loadTemplate();
           } else { }
         });
       
-      var downloaddroidButton = createMenuButton('Download for Android', 'img/menu_androiddownload.png', 3,
+      var downloaddroidButton = createMenuButton('Download for Android', 'img/menu_androiddownload.png', 0, // revert to 3 if doesn't work
         function() {window.open('https://github.com/FlynnFarrow/HappyIslandDesigner/releases/download/androidapp-v1.0-beta/HappyIslandDesigner_Android_1.0_BETA.zip', '_blank')});
+      downloaddroidButton.position = new Point(0, 72); // delete this if doesn't work
 
       var twitterButton = createMenuButton('Twitter', 'img/menu-twitt.png', 0,
         function() {window.open('https://twitter.com/island_designer', '_blank')});

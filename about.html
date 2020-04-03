@@ -72,6 +72,15 @@ catch(e){window.attachEvent("onload", $buo_f)}
     </style>
 </head>
 <body>
+          <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
     <h1 class="title">About the Happy Island Designer Tool</h1>
     <p class="paragraph">The Happy Island Designer tool was originally made by <a href="https://github.com/eugeneration">eugeneration</a> when he saw the customization features in one of the AC directs. He later made it a project on GitHub and many people have used the <a href="https://eugeneration.github.io/HappyIslandDesigner">fantastic tool</a>. When I saw this tool I forked it as it was so good and now I've made some big changes to the project including adding a browser update banner, adding an android application to the project and even linking it to another project of mine, an <a href="https://flynnfarrow.github.io/ACNHIslandNameGenerator">island name generator tool</a>. I hope to continue developing this project and helping out the community. I hope you guys love the tool as much as I do :D</p>
     <br><br>
@@ -88,6 +97,11 @@ catch(e){window.attachEvent("onload", $buo_f)}
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
     <br><br>
-    <p class="paragraph">Did you really think I'd stop there? No way am I stopping there. I even have a town tune tool that I'm planning to link to HID and the ING tools. <a href="https://flynnfarrow.github.io/ACNHTownTuneMaker">Check it out now!</a>I want to keep modifying and making these amazing town tune tools. Soon I'm planning to have a repository that links them all together (with the mentions they want obviously). If anybody has any more amazing tools to share with me that would be great! Feel free to fork the tools I'm making and share them to the world!</p>
+    <p class="paragraph">Did you really think I'd stop there? No way am I stopping there. I even have a town tune tool that I'm planning to link to HID and the ING tools. <a href="https://flynnfarrow.github.io/ACNHTownTuneMaker">Check it out now!</a>I want to keep modifying and making these amazing tools. Soon I'm planning to have a repository that links them all together (with the mentions the developers want obviously). If anybody has any more amazing tools to share with me that would be great! Feel free to fork the tools I'm making and share them to the world!</p>
+<!-- Your share button code -->
+  <div class="fb-share-button" 
+    data-href="https://flynnfarrow.github.io/HappyIslandDesigner" 
+    data-layout="button_count">
+  </div>
 </body>
 </html>

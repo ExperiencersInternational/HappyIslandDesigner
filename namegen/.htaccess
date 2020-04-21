@@ -1,2 +1,1 @@
-
-redirectMatch 301 ^(.*)$ https://flynnfarrow.github.io/ACNHIslandNameGenerator
+Redirect 301 /pagename.php https://flynnfarrow.github.io/ACNHIslandNameGenerator

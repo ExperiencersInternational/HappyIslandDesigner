@@ -1,0 +1,2 @@
+
+redirectMatch 301 ^(.*)$ https://flynnfarrow.github.io/ACNHIslandNameGenerator

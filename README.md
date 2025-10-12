@@ -2,11 +2,11 @@
 
 Click here to create your own island map!
 
-https://flynnfarrow.github.io/HappyIslandDesigner/
+https://experiencersinternational.github.io/HappyIslandDesigner/
 
 Click here to generate your island's name!
 
-https://flynnfarrow.github.io/ACNHIslandNameGenerator
+https://experiencersinternational.github.io/ACNHIslandNameGenerator
 
 ## Introduction
 
